@@ -1,0 +1,10 @@
+# Ignore virtual environment folder
+.venv/
+
+# Ignore sensitive or private files like the config file
+config.py
+
+# Ignore all CSV files except specific ones
+*.csv
+!anki_export.csv
+!fromAnkiPl.csv
